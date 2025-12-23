@@ -12,7 +12,7 @@ public class Main {
      */
     public static int add(int a, int b) {
         // your code here
-        return 0;
+        return a + b;
     }
 
     /**
@@ -20,7 +20,7 @@ public class Main {
      */
     public static int subtract(int a, int b) {
         // your code here
-        return 0;
+        return a - b;
     }
 
     /**
@@ -28,7 +28,7 @@ public class Main {
      */
     public static int multiply(int a, int b) {
         // your code here
-        return 0;
+        return a * b;
     }
 
     /**
@@ -36,6 +36,10 @@ public class Main {
      */
     public static int factorial(int n) {
         // your code here
-        return 0;
+        int result = 1;
+        for (int i = n; i > 0; i--) {
+            result = result * i;
+        }
+        return result;
     }
 }
